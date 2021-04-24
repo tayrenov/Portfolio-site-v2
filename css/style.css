@@ -582,12 +582,12 @@ header .header__main-menu ul li:hover {
 
 .portfolio-wrapper .portfolio .portfolio__container a .portfolio__container__block span,
 .portfolio-wrapper .portfolio .portfolio__container a .portfolio__container__block div {
+  font-family: Tahoma, Geneva, sans-serif;
   text-align: center;
   color: #fff;
 }
 
 .portfolio-wrapper .portfolio .portfolio__container a .portfolio__container__block span {
-  font-family: Tahoma, Geneva, sans-serif;
   width: 100%;
   display: block;
   font-weight: bold;
@@ -890,7 +890,7 @@ body li {
   }
 
   .portfolio-wrapper .portfolio .portfolio__container a .portfolio__container__block {
-    padding: 23% 0 0 0;
+    padding: 15% 0 0 0;
   }
 
   .portfolio-wrapper .portfolio .portfolio__container a picture img {

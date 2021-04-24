@@ -127,5 +127,84 @@ var circleProgress = (function(selector) {
 
   circleProgress('.counter');
 
+/***************SCROLL_LINKS*********/
 
+  /***************LOGO***************/
+  const logos = document.querySelectorAll('._logo');
+  for (let logo of logos) {
+    logo.addEventListener('click', function (e) {
+          e.preventDefault();
+          const id = logo.getAttribute('href');
+
+          document.querySelector('body').scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+          });
+      });
+  }
+  /***************HOME***************/
+  const home = document.getElementById('#home');
+
+    home.addEventListener('click', function (e) {
+
+      const id = home.getAttribute('href');
+
+      document.querySelector('body').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+
+    });
+    /***************About***************/
+    const about = document.getElementById('#about');
+
+    about.addEventListener('click', function (e) {
+
+      const id = about.getAttribute('href');
+
+      document.querySelector('.about').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+
+    });
+    /***************Skills***************/
+    const skills = document.getElementById('#skills');
+
+    skills.addEventListener('click', function (e) {
+
+      const id = skills.getAttribute('href');
+
+      document.querySelector('.skills').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+
+    });
+    /***************services***************/
+    const services = document.getElementById('#services');
+
+    services.addEventListener('click', function (e) {
+
+      const id = services.getAttribute('href');
+
+      document.querySelector('.services').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+
+    });
+    /***************portfolio***************/
+    const portfolio = document.getElementById('#portfolio');
+
+    portfolio.addEventListener('click', function (e) {
+
+      const id = portfolio.getAttribute('href');
+
+      document.querySelector('.portfolio').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+
+    });
 });
