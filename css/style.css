@@ -305,6 +305,7 @@ header .header__main-menu ul li:hover {
 }
 
 .wrapper-main-block .main-block .main-block__info__title div {
+  color: #fff;
   width: 90%;
   height: 2px;
   margin: 25px 0 20px 0;
@@ -316,25 +317,37 @@ header .header__main-menu ul li:hover {
   text-transform: uppercase;
 }
 
-.wrapper-main-block .main-block button {
+.wrapper-main-block .main-block a {
+  display: block;
   margin-top: 40px;
-  width: 230px;
-  height: 57px;
+  width: 210px;
+  height: 48px;
+  color: #fff;
   border: 2px solid #fff;
-  background: none;
-  text-transform: uppercase;
-  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-transition: all ease-in .3s;
   -o-transition: all ease-in .3s;
   transition: all ease-in .3s;
   cursor: pointer;
 }
 
-.wrapper-main-block .main-block button a {
+.wrapper-main-block .main-block a button {
   color: #fff;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-.wrapper-main-block .main-block button:hover {
+.wrapper-main-block .main-block a:hover {
   background: rgba(82, 237, 199, 0.3);
 }
 
