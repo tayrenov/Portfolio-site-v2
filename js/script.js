@@ -208,3 +208,28 @@ var circleProgress = (function(selector) {
 
     });
 });
+
+/***********SWIPER*********/
+
+const swiper = new Swiper('.swiper-container', {
+
+  loop: true,
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+  slidesPerView:1,
+  autoplay: {
+    delay:2000,
+    disableOnInteraction:false
+  },
+  breakpoints: {
+    1350: {
+      slidesPerView:3
+    },
+    750: {
+      slidesPerView:2
+    }
+  }
+});
